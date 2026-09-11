@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha de votação</title>
+
+    <style>
+        img{
+            width:120px;
+            height: 120px;
+            border-radius: 100%;
+
+        }
+        button{
+            padding: 8px 10px;
+            cursor:pointer;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <h1>Votação</h1>
+
+    <div>
+        <img src="https://noticiasdatv.uol.com.br/media/_versions/artigos_2023/davi-brito-post-instagram-_fixed_large.jpg"alt="">
+        <h1>Davi Brito</h1>
+        <button onclick="votar('Davi Brito')">Votar</button>
+    </div>
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuX7WSRYdPAFL3cvLgpGQN9IvNxj63_hRmoOfLd00Kg&s" alt="">
+        <h1>Raquel Brito</h1>
+        <button onclick="votar('Raquel Brito')">Votar</button>
+    </div>
+    <div>
+         <img src="https://www.estrelando.com.br/uploads/2026/03/08/virginia-destaque-1772983853.jpg" alt="">
+        <h1>Virginia Fonseca</h1>
+        <button onclick="votar('Virginia Fonseca')">Votar</button>
+    </div>
+            <button onclick="mostrarVoto()">Mostra votos</button>
+
+</body>
+<script src="script.js"></script>
+
+</html>
